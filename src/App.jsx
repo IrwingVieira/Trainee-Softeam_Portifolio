@@ -21,7 +21,7 @@ function App() {
           </p>
         </section>
 
-        {/* PARTE 2: SEÇÃO PROJETOS (Links como botões e cards separados) */}
+        {/* SEÇÃO PROJETOS (Links como botões e cards separados) */}
         <section id="projetos" style={{ marginTop: '40px' }}>
           <h2>Meus Projetinhos</h2>
 
@@ -55,6 +55,15 @@ function App() {
 
         </section>
       </main>
+      {/*FOOTER: Design by e afins*/}
+      <footer style={{ backgroundcolor: '#f1f1f1', padding: '20px', textAlign: 'center', marginTop: '40px', width: '100%'}}>
+        <p>
+          &copy; 2025 - Por Irwing Felipe
+        </p>
+        <p style={{ fontSize: '0.8rem', color: '#666' }}></p>
+      </footer>
+
+
     </div>
   )
 }
