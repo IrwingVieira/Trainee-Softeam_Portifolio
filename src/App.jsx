@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import fotoPerfil from './assets/images/eu.png'
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       
       {/* BARRA LATERAL (Sidebar) */}
       <aside className="sidebar">
-        <img src="/src/assets/images/eu.png" alt="Irwing Vieira" className="foto-perfil" />
+        <img src={fotoPerfil} alt="Irwing Vieira" className="foto-perfil" />
         
         <h1>Irwing Vieira</h1>
         <h2>Estudante de Ciência da Computação (UFS)</h2>
